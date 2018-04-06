@@ -139,3 +139,46 @@ p {
 .write-to-us textarea {
 	margin-bottom: 1.75rem;
 }
+/** Stopka **/
+.site-footer {
+	padding: 95px 0 10px;
+	background-color: #2D3E50;
+	font-size: .9rem;
+}
+
+.footer-first-col li {
+	padding: .6rem 0;
+}
+
+.footer-first-col li i {
+	margin-right: .75rem;
+}
+
+.footer-second-col li {
+	padding: 1rem 0;
+	width: 90%;
+	border-bottom: 1px solid #777777;
+}
+
+.footer-second-col li:last-child {
+	border-bottom: none;
+}
+
+.footer-second-col li:first-child {
+	padding-top: 0;
+}
+
+.footer-second-col li span {
+	display: inline-block;
+	margin-right: .5rem;
+	font-weight: 600;
+}
+
+/** Copyright **/
+.copyright {
+	padding: 30px 0;
+}
+
+.copyright-designed {
+	font-size: .85rem;
+}
