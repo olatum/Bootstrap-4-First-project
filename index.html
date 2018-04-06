@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<title>Boostrap 4</title>
@@ -7,66 +8,134 @@
 	<link rel="stylesheet" href="style/font-awesome.min.css">
 	<link rel="stylesheet" href="style/custom.css">
 </head>
+
 <body>
 
 	<!-- Navbar -->
-		<nav class="navbar navbar-light navbar-expand-lg">
-			<div class="container">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent">
+	<nav class="navbar navbar-light navbar-expand-lg">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navContent">
-					<div class="navbar-nav">
-						<a href="#" class="nav-item nav-link active text-warning">Start</a>
-						<a href="#" class="nav-item nav-link">O nas</a>
-						<a href="#" class="nav-item nav-link">Realizacje</a>
-						<a href="#" class="nav-item nav-link">Kontakt</a>
+			<div class="collapse navbar-collapse" id="navContent">
+				<div class="navbar-nav">
+					<a href="#" class="nav-item nav-link active text-warning">Start</a>
+					<a href="#" class="nav-item nav-link">O nas</a>
+					<a href="#" class="nav-item nav-link">Realizacje</a>
+					<a href="#" class="nav-item nav-link">Kontakt</a>
+				</div>
+			</div>
+
+		</div>
+	</nav>
+
+	<!-- Top -->
+	<div class="top jumbotron text-white text-center d-md-flex">
+		<div class="container bg-primary p-5 align-items-center my-5">
+			<h1 class="text-uppercase mt-5">Odkryj <span class="text-warning">nową jakość</span> w programowaniu</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quam in nostrum?</p>
+			<button class="btn btn-warning text-white">Więcej</button>
+		</div>
+	</div>
+
+	<!-- Wprowadzenie -->
+	<section class="introduction">
+		<h2 class="text-center text-uppercase introduction-header">Zacznij z nami</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-md">
+					<div class="introduction-item text-center">
+						<img src="images/devOla-5.jpg" alt="logo" class="rounded">
+						<h3 class="introduction-item-header">Profesjonalizm</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatibus dicta laboriosam</p>
 					</div>
 				</div>
-
-			</div>
-		</nav>
-
-		<!-- Top -->
-			<div class="top jumbotron text-white text-center">
-				<div class="container bg-primary">
-					<h1 class="text-uppercase">Odkryj <span class="text-warning">nową jakość</span> w programowaniu</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quam in nostrum?</p>
-					<button class="btn btn-warning text-white">Więcej</button>
+				<div class="col-md">
+					<div class="introduction-item text-center">
+						<img src="images/office.jpg" alt="office" class="rounded">
+						<h3 class="introduction-item-header">Dostępność</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatibus dicta laboriosam</p>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="introduction-item text-center">
+						<img src="images/apple.jpg" alt="apple" class="rounded">
+						<h3 class="introduction-item-header">Doświadczenie</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatibus dicta laboriosam</p>
+					</div>
 				</div>
 			</div>
+		</div>
+	</section>
 
-			<!-- Wprowadzenie -->
-			<section class="introduction">
-				<h2 class="text-center text-uppercase introduction-header">Zacznij z nami</h2>
+	<!-- Opinie -->
+	<section class="testimonial">
+		<div class="container">
+			<div class="text-center text-dark testimonial-content mx-auto">
+				<h2 class="text-uppercase testimonial-header">Opinia <span class="text-warning">klienta</span></h2>
+				<blockquote class="blockquote">
+					<p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, obcaecati placeat ut assumenda accusamus sunt iste distinctio quod! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<footer class="blockquote-footer text-muted">Jan Kowalski <cite title="Inwestor">Właściciel Salonu Kosmetycznego</cite></footer>
+				</blockquote>
+			</div>
+		</div>
+	</section>
+
+	<!-- Realizacje -->
+		<section class="portfolio">
+			<div class="portfolio-header">
+				<h2 class="text-center text-uppercase">Nasze najnowsze realizacje</h2>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md">
+						<img class="rounded img-fluid portfolio-img" src="images/dabe1.png" alt="Strona www 1">
+						<span class="text-uppercase page-label text-info">Strona www</span>
+						<h3 class="text-uppercase portfolio-subheader">Salon Kosmetyczny: DABE COSMETIC</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda voluptatem eveniet in sint a inventore dolor nulla dolorum repudiandae voluptas commodi minus porro aspernatur, itaque nemo vel quibusdam nobis reiciendis</p>
+						<button class="btn btn-info portfolio-button">Czytaj więcej</button>
+					</div>
+					<div class="col-md">
+						<img class="rounded img-fluid portfolio-img" src="images/główna1.png" alt="Strona www 2">
+						<span class="text-uppercase page-label text-info">Strona www</span>
+						<h3 class="text-uppercase portfolio-subheader">Architektura Krajobrazu: MOJE OGRODY</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda voluptatem eveniet in sint a inventore dolor nulla dolorum repudiandae voluptas commodi minus porro aspernatur, itaque nemo vel quibusdam nobis reiciendis</p>
+						<button class="btn btn-info portfolio-button">Czytaj więcej</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Kontakt -->
+			<section class="write-to-us">
 				<div class="container">
 					<div class="row">
-						<div class="col-md">
-							<div class="introduction-item text-center">
-								<img src="images/devOla-5.jpg" alt="logo" class="rounded">
-								<h3 class="introduction-item-header">Profesjonalizm</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatibus dicta laboriosam</p>
+						<div class="col-md-4">
+							<div class="write-to-us-left">
+								<span class="text-uppercase text-primary page-label">Masz pytanie?</span>
+								<h2 class="text-uppercase write-to-us-header">Skontaktuj się z nami</h2>
+								<form action="">
+									<label for="name" class="form-control-label">Imię i nazwisko</label>
+									<input type="text" id="name" class="form-control">
+									<label for="email" class="form-control-label">E-mail</label>
+									<input type="email" id="email" class="form-control">
+									<label for="msg-title" class="form-control-label">Tytuł wiadomości</label>
+									<input type="text" id="msg-title" class="form-control">
+									<label for="message" class="form-control-label">Wiadomość</label>
+									<textarea id="message" cols="30" rows="5" class="form-control"></textarea>
+									<button class="btn btn-primary">Wyślij wiadomość</button>
+								</form>
 							</div>
 						</div>
-						<div class="col-md">
-							<div class="introduction-item text-center">
-								<img src="images/office.jpg" alt="office" class="rounded">
-								<h3 class="introduction-item-header">Dostępność</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatibus dicta laboriosam</p>
-							</div>
-						</div>
-						<div class="col-md">
-							<div class="introduction-item text-center">
-								<img src="images/apple.jpg" alt="apple" class="rounded">
-								<h3 class="introduction-item-header">Doświadczenie</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus voluptatibus dicta laboriosam</p>
-							</div>
+						<div class="col-md-8 d-flex">
+							<img class="align-self-center img-fluid" src="images/ola.jpg" alt="Ola">
 						</div>
 					</div>
 				</div>
 			</section>
 
-<script src="js/jquery-3.2.1.slim.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/jquery-3.2.1.slim.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
