@@ -19,6 +19,10 @@ p {
 	padding: 0 1.5rem;
 }
 
+.nav-item{
+    font-weight: bolder;
+}
+
 /** Top **/
 .top {
     /*height: 95vh;*/
@@ -145,7 +149,7 @@ p {
 }
 /** Stopka **/
 .site-footer {
-	padding: 95px 0 10px;
+	padding: 45px 0 5px;
 	background-color: #2D3E50;
 	font-size: .9rem;
 }
@@ -180,9 +184,6 @@ p {
 
 /** Copyright **/
 .copyright {
-	padding: 30px 0;
-}
-
-.copyright-designed {
-	font-size: .85rem;
+	padding: 20px 0;
+    font-size: 0.8rem;
 }
