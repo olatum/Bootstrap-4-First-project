@@ -6,6 +6,7 @@ p {
 
 .btn {
 	padding: .5rem 1.25rem;
+    background-color: #2D3E50;
 }
 
 .page-label {
@@ -25,6 +26,9 @@ p {
 	background-image: url('../images/programming.jpg');
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+}
+.top-bg{
+    	background-color: #2D3E50;
 }
 
 .top-header {
